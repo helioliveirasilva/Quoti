@@ -5,6 +5,8 @@ class ExplorarViewController: UIViewController {
 
     
     // Aqui estão elementos da interface declarados
+    
+    //So teste! 
 
     @IBOutlet weak var explorarSegControl: UISegmentedControl!
     @IBOutlet weak var explorarBotaoAdd: UIButton!
