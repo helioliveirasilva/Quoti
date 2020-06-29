@@ -19,6 +19,7 @@
 		24D5144C24A43A21005ED158 /* explorarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D5144B24A43A21005ED158 /* explorarViewController.swift */; };
 		24D5144E24A43A2B005ED158 /* trilhasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D5144D24A43A2B005ED158 /* trilhasViewController.swift */; };
 		24D5145024A43A38005ED158 /* perfilViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D5144F24A43A38005ED158 /* perfilViewController.swift */; };
+		7D814DFD24AA7BF800A83E05 /* PontoDeInteresse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D814DFC24AA7BF700A83E05 /* PontoDeInteresse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		24D5144B24A43A21005ED158 /* explorarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = explorarViewController.swift; sourceTree = "<group>"; };
 		24D5144D24A43A2B005ED158 /* trilhasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trilhasViewController.swift; sourceTree = "<group>"; };
 		24D5144F24A43A38005ED158 /* perfilViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = perfilViewController.swift; sourceTree = "<group>"; };
+		7D814DFC24AA7BF700A83E05 /* PontoDeInteresse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PontoDeInteresse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +120,7 @@
 				24AAC57024A404E400965566 /* LaunchScreen.storyboard */,
 				24AAC57324A404E400965566 /* Info.plist */,
 				24AAC56B24A404E400965566 /* Quoti.xcdatamodeld */,
+				7D814DFC24AA7BF700A83E05 /* PontoDeInteresse.swift */,
 			);
 			path = Quoti;
 			sourceTree = "<group>";
@@ -275,6 +278,7 @@
 				24AAC56D24A404E400965566 /* Quoti.xcdatamodeld in Sources */,
 				24D5145024A43A38005ED158 /* perfilViewController.swift in Sources */,
 				24D5144E24A43A2B005ED158 /* trilhasViewController.swift in Sources */,
+				7D814DFD24AA7BF800A83E05 /* PontoDeInteresse.swift in Sources */,
 				24D5144C24A43A21005ED158 /* explorarViewController.swift in Sources */,
 				24AAC56124A404E400965566 /* AppDelegate.swift in Sources */,
 				24AAC56324A404E400965566 /* SceneDelegate.swift in Sources */,
