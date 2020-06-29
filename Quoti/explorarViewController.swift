@@ -1,4 +1,5 @@
 import UIKit
+import MapKit
 
 class ExplorarViewController: UIViewController {
 
@@ -9,6 +10,8 @@ class ExplorarViewController: UIViewController {
     @IBOutlet weak var explorarBotaoAdd: UIButton!
     @IBOutlet weak var explorarSearchBar: UISearchBar!
     @IBOutlet weak var explorarMainView: UIView!
+    @IBOutlet weak var mapView: MKMapView!
+   
     
     // Ação pra mudar a visualização pelo segControl
     

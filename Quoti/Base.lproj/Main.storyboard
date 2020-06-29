@@ -11,7 +11,6 @@
         <!--SALVOS-->
         <scene sceneID="hNz-n2-bh7">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
                 <viewController storyboardIdentifier="SalvosViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="9pv-A4-QxB" customClass="SalvosViewController" customModule="Quoti" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="tsR-hK-woN">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
@@ -59,6 +58,7 @@
                         <outlet property="salvosSegControl" destination="Wqt-Uo-DsP" id="YAN-P5-o3n"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-372.46376811594206" y="654.91071428571422"/>
         </scene>
@@ -101,6 +101,12 @@
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="roJ-tD-0bk">
                                 <rect key="frame" x="0.0" y="185" width="414" height="628"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="thF-5B-fmK">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="628"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </mapView>
+                                </subviews>
                                 <color key="backgroundColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
                             <searchBar contentMode="redraw" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QvP-mx-zvZ">
@@ -119,11 +125,12 @@
                         <outlet property="explorarMainView" destination="roJ-tD-0bk" id="e8F-rg-RPb"/>
                         <outlet property="explorarSearchBar" destination="QvP-mx-zvZ" id="cUl-3h-rtL"/>
                         <outlet property="explorarSegControl" destination="igz-yh-6Dt" id="1yX-qh-XuE"/>
+                        <outlet property="mapView" destination="thF-5B-fmK" id="nqm-Ow-FOV"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="667" y="655"/>
+            <point key="canvasLocation" x="666.66666666666674" y="654.91071428571422"/>
         </scene>
         <!--PERFIL-->
         <scene sceneID="B3r-Lu-Aod">
