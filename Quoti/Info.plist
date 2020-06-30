@@ -72,5 +72,7 @@
 	</array>
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string>Isso permitirá que você veja pontos de interesse ao seu redor</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Isso permitirá que você veja pontos de interesse ao seu redor</string>
 </dict>
 </plist>

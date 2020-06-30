@@ -1,12 +1,10 @@
 import UIKit
 import MapKit
 
-class ExplorarViewController: UIViewController {
+class ExplorarViewController: UIViewController, CLLocationManagerDelegate {
 
     
     // Aqui estão elementos da interface declarados
-    
-    //So teste! 
 
     @IBOutlet weak var explorarSegControl: UISegmentedControl!
     @IBOutlet weak var explorarBotaoAdd: UIButton!
@@ -52,6 +50,7 @@ class ExplorarViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        mapView.delegate = self
         mapView.showsUserLocation = true
         
         //configurações para que o usuário apareça no mapa
@@ -64,18 +63,19 @@ class ExplorarViewController: UIViewController {
         //configurações para que o mapa apareça centrado no usuário
         let localizacaoInicial: CLLocationCoordinate2D = mapView.userLocation.coordinate
         mapView.setCenter(localizacaoInicial, animated: true)
+        
+        
        
-        let amplitudeDeZoom = MKMapView.CameraZoomRange(maxCenterCoordinateDistance: 500000)
-        mapView.setCameraZoomRange(amplitudeDeZoom, animated: true)
+//        let amplitudeDeZoom = MKMapView.CameraZoomRange(maxCenterCoordinateDistance: 500000)
+//        mapView.setCameraZoomRange(amplitudeDeZoom, animated: true)
        
         
+        let cristo = PontoDeInteresse(title: "Cristo Redentor", subtitle: "1 história a ser exibida", coordinate: CLLocationCoordinate2D(latitude: -22.9519, longitude: -43.2105))
+        mapView.addAnnotation(cristo)
         // Do any additional setup after loading the view.
     }
     
 }
-
-
-
 
 
 //>>>>>>>>>>>>>  INCOMPLETO DAQUI PRA BAIXO OK? <<<<<<<<<<<
