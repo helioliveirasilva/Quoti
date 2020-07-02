@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		244EA38E24AD641100229B74 /* SalvosTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244EA38D24AD641100229B74 /* SalvosTableViewCell.swift */; };
+		244EA39224AD74B400229B74 /* Lugares.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244EA39124AD74B400229B74 /* Lugares.swift */; };
+		244EA39424AD857600229B74 /* trilhasTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244EA39324AD857600229B74 /* trilhasTableViewCell.swift */; };
 		24AAC56124A404E400965566 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24AAC56024A404E400965566 /* AppDelegate.swift */; };
 		24AAC56324A404E400965566 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24AAC56224A404E400965566 /* SceneDelegate.swift */; };
 		24AAC56A24A404E400965566 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24AAC56824A404E400965566 /* Main.storyboard */; };
@@ -40,6 +43,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		244EA38D24AD641100229B74 /* SalvosTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalvosTableViewCell.swift; sourceTree = "<group>"; };
+		244EA39124AD74B400229B74 /* Lugares.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lugares.swift; sourceTree = "<group>"; };
+		244EA39324AD857600229B74 /* trilhasTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trilhasTableViewCell.swift; sourceTree = "<group>"; };
 		24AAC55D24A404E400965566 /* Quoti.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quoti.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		24AAC56024A404E400965566 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		24AAC56224A404E400965566 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -113,6 +119,7 @@
 				24AAC56224A404E400965566 /* SceneDelegate.swift */,
 				24AAC56824A404E400965566 /* Main.storyboard */,
 				24D5144924A43A10005ED158 /* salvosViewController.swift */,
+				244EA38D24AD641100229B74 /* SalvosTableViewCell.swift */,
 				24D5144B24A43A21005ED158 /* explorarViewController.swift */,
 				24D5144D24A43A2B005ED158 /* trilhasViewController.swift */,
 				24D5144F24A43A38005ED158 /* perfilViewController.swift */,
@@ -121,6 +128,8 @@
 				24AAC57324A404E400965566 /* Info.plist */,
 				24AAC56B24A404E400965566 /* Quoti.xcdatamodeld */,
 				7D814DFC24AA7BF700A83E05 /* PontoDeInteresse.swift */,
+				244EA39124AD74B400229B74 /* Lugares.swift */,
+				244EA39324AD857600229B74 /* trilhasTableViewCell.swift */,
 			);
 			path = Quoti;
 			sourceTree = "<group>";
@@ -275,13 +284,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				24D5144A24A43A10005ED158 /* salvosViewController.swift in Sources */,
+				244EA39224AD74B400229B74 /* Lugares.swift in Sources */,
 				24AAC56D24A404E400965566 /* Quoti.xcdatamodeld in Sources */,
 				24D5145024A43A38005ED158 /* perfilViewController.swift in Sources */,
 				24D5144E24A43A2B005ED158 /* trilhasViewController.swift in Sources */,
 				7D814DFD24AA7BF800A83E05 /* PontoDeInteresse.swift in Sources */,
 				24D5144C24A43A21005ED158 /* explorarViewController.swift in Sources */,
 				24AAC56124A404E400965566 /* AppDelegate.swift in Sources */,
+				244EA38E24AD641100229B74 /* SalvosTableViewCell.swift in Sources */,
 				24AAC56324A404E400965566 /* SceneDelegate.swift in Sources */,
+				244EA39424AD857600229B74 /* trilhasTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
